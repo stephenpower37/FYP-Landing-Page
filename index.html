@@ -18,6 +18,7 @@
       background-color: #fff;
       border-radius: 8px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      overflow: hidden; /* To clear the float */
     }
     h1, h2 {
       color: #333;
@@ -41,26 +42,24 @@
     a:hover {
       color: #0056b3;
     }
-    .image-container {
+    .project-image {
       float: right;
       margin-left: 20px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
-  <div class="image-container">
-    <img src="FYP Poster.png" alt="FYP Poster" width="200">
-  </div>
   <div class="container">
     <h1>Stephen Power - Final Year Project</h1>
     <h2>Abstract</h2>
     <p>As automotive technology continues to develop, there has been a need for modern communication protocols that are capable of handling the demands of connectivity and automation. This project focuses on the development of a diagnostics application that implements the Service-Oriented Middleware over Internet Protocol (SOME/IP) communication protocol. SOME/IP’s service-oriented capabilities offer an alternative communication to traditional signal-based protocols, thereby enhancing the efficiency, flexibility, and interoperability of the diagnostics system. The incorporation of SOME/IP key features such as Service Discovery and Publish/Subscribe highlights the role of SOME/IP in empowering modern automotive applications.</p>
     <h2>Project Links</h2>
     <ul>
-      <li><a href="https://github.com">Project Poster</a></li>
       <li><a href="https://github.com">Demonstration Video</a></li>
       <li><a href="https://github.com">GitHub Repository</a></li>
     </ul>
   </div>
+  <img src="FYP Poster.png" alt="FYP Poster" class="project-image" width="200">
 </body>
 </html>
